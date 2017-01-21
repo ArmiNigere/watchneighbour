@@ -14,3 +14,4 @@ public class UserIDControlException extends Exception {
 
 // questa classe gestisce le eccezione per user ID  
 // gestisce anche la eccezione che user ID or password è sbaglaito
+// è una eccezione controllato

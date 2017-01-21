@@ -13,4 +13,5 @@ public class EmailException extends Exception {
 
 }
 
-// gestisce le eccezione per la  email m sono eccezione controllate
+// gestisce le eccezione per la  email m sono eccezione controllate , se un utente ha due email uguale in fase di 
+// di registration

@@ -13,12 +13,13 @@ private double latitudine;
 
  Random randomLocation = new Random();
 
-
+// TO DO    citta ha suo raggio fisso  pero deve fisso per ogni citta con lo stesso nome, cambia solo quello
+ // dei quartiere
 
 public Citta(String nomeCitta) {
 	super();
 	this.nomeCitta = nomeCitta;
-	this.longitudine = this.calcoloLong();
+	this.longitudine = this.calcoloLong(); 
 	this.latitudine = this.calcolaLat();
 	
 }
